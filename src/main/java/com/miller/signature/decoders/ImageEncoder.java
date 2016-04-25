@@ -1,4 +1,4 @@
-package com.miller.image.encoders;
+package com.miller.signature.decoders;
 
 import java.awt.Image;
 
@@ -12,12 +12,4 @@ public interface ImageEncoder {
 	 */
 	public Image decode(int width, int height, byte[] data) throws ImageEncoderException;
 	
-	/**
-	 * Converts an image to a byte array
-	 * @param image
-	 * @return
-	 * @throws ImageEncoderException
-	 */
-	public byte[] encode(Image image) throws ImageEncoderException;
-
 }

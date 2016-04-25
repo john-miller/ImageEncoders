@@ -1,4 +1,4 @@
-package com.miller.image.encoders;
+package com.miller.signature.decoders;
 
 public class ImageEncoderException extends Exception {
 
